@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.app.dark {
+  background-color: #1a1a1a;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background: #eee;
+}
+
+.hero {
+  text-align: center;
+  padding: 2rem;
+}
+
+.hero img {
+  border-radius: 50%;
+  width: 150px;
+}
+
+.about, .contact {
+  padding: 1rem 2rem;
+  max-width: 600px;
+  margin: auto;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contact input, .contact textarea {
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+.contact button {
+  padding: 0.5rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+}
+
+.footer {
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.8rem;
+  background-color: #f1f1f1;
+}
